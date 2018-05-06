@@ -1,0 +1,19 @@
+[package]
+name = "siege-font"
+version = "0.1.0"
+authors = ["Mike Dilger <mike@optcomp.nz>"]
+description = "Font generation library for the Siege Engine"
+repository = "https://github.com/SiegeEngine/siege-font"
+readme = "README.md"
+keywords = [ "font", "siege" ]
+license = "MIT"
+
+[dependencies]
+font-atlas = { git = "https://github.com/SiegeEngine/font-atlas", features=["with-serde"] }
+ddsfile = { git = "https://github.com/SiegeEngine/ddsfile" }
+image = "0.18"
+bincode = "1.0"
+serde = "1.0"
+serde_derive = "1.0"
+distance-field = "0.1"
+png = "*"
