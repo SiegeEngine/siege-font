@@ -30,7 +30,8 @@ SMALLWIDTH=512
 # Typically a power of 8, since we will probably be going from e.g. 4096 down to 512
 BIG_MARGIN=32
 
-./target/release/create ../font-atlas/examples/Gudea-Regular.ttf $FONTSIZE $BIG_MARGIN $SMALLWIDTH \
+./target/release/siege_font_create \
+    ../font-atlas/examples/Gudea-Regular.ttf $FONTSIZE $BIG_MARGIN $SMALLWIDTH \
                             "Basic Latin" \
                             "Specials" \
                             "Latin-1 Supplement" \
